@@ -21,7 +21,7 @@
         <div class="w-8 h-8 bg-primary-600 dark:bg-primary-500 rounded-lg flex items-center justify-center">
           <Icon icon="fa6-solid:bolt" class="w-5 h-5 text-white" />
         </div>
-        <span class="text-xl font-bold text-slate-900 dark:text-white">CMS</span>
+        <span class="text-xl font-bold text-slate-900 dark:text-white">CMS19</span>
       </div>
       
       <!-- Navigation -->
