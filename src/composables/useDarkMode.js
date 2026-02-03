@@ -23,17 +23,10 @@ export function initDarkMode() {
     darkModeState.isDark = false
     document.documentElement.classList.remove('dark')
   } else {
-    // Check system preference if no theme is stored
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    darkModeState.isDark = prefersDark
-    
-    if (prefersDark) {
-      document.documentElement.classList.add('dark')
-      localStorage.setItem('theme', 'dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-      localStorage.setItem('theme', 'light')
-    }
+    // Default to light mode on first visit
+    darkModeState.isDark = false
+    document.documentElement.classList.remove('dark')
+    localStorage.setItem('theme', 'light')
   }
 }
 
