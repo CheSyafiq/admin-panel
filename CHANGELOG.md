@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2026-02-03] - Theme Default Configuration
+
+### Changed
+- [2026-02-03] - CONFIGURATION - Set light mode as default theme on first visit
+  - Modified useDarkMode.js to default to light mode instead of checking system preference
+  - First-time users will now see light theme by default
+  - Users can still manually toggle to dark mode, preference will be saved
+
 ## [2026-02-03] - Internationalization (i18n) System
 
 ### Added
